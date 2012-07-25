@@ -1,0 +1,7 @@
+RobotWars
+Created by Samuel Jun
+
+RobotWars is a small turn based survival game written in C++. This game was
+originally written for a project for a Introductory course for Computer Science.
+I am currently using this project mainly as a test bed for learning new
+programming techniques like make and git.
