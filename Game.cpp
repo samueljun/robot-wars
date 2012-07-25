@@ -54,13 +54,17 @@ void Game::play()
         m_arena->display("");
         return;
     }
-    string msg = "";
+    string msg = "RobotWars - Survive and Destory all the Robots\n";
     do
     {
         m_arena->display(msg);
         msg = "";
         cout << endl;
-        cout << "Move (u/d/l/r/su/sd/sl/sr/c//h/q): ";
+        cout << "Move (u/d/l/r)   Shoot: (su/sd/sl/sr)" << endl <<
+		"Computer (c)     Stand Still ([ENTER])" << endl <<
+		"History (h)      Quit (q)" << endl <<
+		endl <<
+		"What is your move?: ";
         string action;
         getline(cin,action);
         if (action.size() == 0)
