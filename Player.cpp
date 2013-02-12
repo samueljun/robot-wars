@@ -185,7 +185,7 @@ bool Player::shoot(int dir)
       case DOWN:   rDelta = +1; break;
       case LEFT:   cDelta = -1; break;
       case RIGHT:  cDelta = +1; break;
-      default:     
+      default:
 		  m_arena->history().record(row(), col());
 		  return false;  // Bad direction!
     }

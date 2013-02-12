@@ -67,7 +67,7 @@ void Arena::display(string msg) const
       // the array element grid[row-1][col-1]
     char grid[MAXROWS][MAXCOLS];
     int r, c;
-    
+
         // Fill the grid with dots
     for (r = 0; r < rows(); r++)
         for (c = 0; c < cols(); c++)
